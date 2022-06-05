@@ -18,6 +18,10 @@
  * BROWSER POLYFILLS
  */
 
+// import for IE11
+import 'core-js/es/typed-array';
+import 'core-js/es/object';
+
 /**
  * By default, zone.js will patch all possible macroTask and DomEvents
  * user can disable parts of macroTask/DomEvents patch by setting following flags
